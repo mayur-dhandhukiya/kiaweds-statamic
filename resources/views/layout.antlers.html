@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{{ partial:header-link }}
+
+<body>
+ <!-- preloader -->
+    <div class="preloader" style="display: block;">
+        <div class="preloader-inner">
+            <div class="preloader-icon">
+               <img src="{{ theme:asset }}assets/images/loader.svg" alt="loader icon" class="object-cover">
+            </div>
+        </div>
+    </div>
+    <!-- preloader -->
+    {{ partial:header }}
+
+    {{ template_content }}
+
+    {{ partial:footer }}
+    {{ partial:footer-link }}
+</body>
+
+</html>

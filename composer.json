@@ -1,0 +1,9 @@
+{
+    "name": "bhargavi-bhalala/kiaWeds-statamic-theme",
+    "extra": {
+        "statamic": {
+            "name": "KiaWeds - Statamic Theme",
+            "description": "A Statamic starter kit for wedding planners to showcase blogs, services, events, and photography beautifully."
+        }
+    }
+}
